@@ -74,7 +74,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "Jquery",
-  "Php-symphony",
+  "Php-symfony",
   "React",
   "Matrial ui",
   "Git",
