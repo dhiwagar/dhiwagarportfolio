@@ -37,9 +37,9 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "Keprevos.pvt.Ltd Pondicherry, India",
-    description: "I worked as a front-end developer for 1 year",
+    description: "I worked as a front-end developer for 2 year",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2022 - 2025",
   },
 ] as const;
 
