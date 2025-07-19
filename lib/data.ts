@@ -44,6 +44,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+   {
+    title: "Food Commerce",
+    description:
+      "A responsive food commerce web app showcasing food items and cart functionality.",
+    tags: ["React", "Tailwind", "Commerce"],
+    imageUrl: "https://onlinepngtools.com/images/png/illustrations/remove-png-background.png", // Make sure to import this image
+    imageUrlLink: "https://thefoodfarmacy.vercel.app/",
+  },
+  {
+    title: "Room Booking",
+    description:
+      "A full-featured room booking application where users can search, view, and reserve hotel rooms.",
+    tags: ["React", "Bootstrap", "Booking"],
+    imageUrl: "https://onlinepngtools.com/images/png/illustrations/remove-png-background.png", // Import this image as well
+    imageUrlLink: "https://roombookingreact.vercel.app/",
+  },
   {
     title: "Ecommerce",
     description:
@@ -67,22 +83,7 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
     imageUrlLink: "https://matrialui-dhiwagar.vercel.app/",
   },
-  {
-    title: "Food Commerce",
-    description:
-      "A responsive food commerce web app showcasing food items and cart functionality.",
-    tags: ["React", "Tailwind", "Commerce"],
-    imageUrl: "https://onlinepngtools.com/images/png/illustrations/remove-png-background.png", // Make sure to import this image
-    imageUrlLink: "https://thefoodfarmacy.vercel.app/",
-  },
-  {
-    title: "Room Booking",
-    description:
-      "A full-featured room booking application where users can search, view, and reserve hotel rooms.",
-    tags: ["React", "Bootstrap", "Booking"],
-    imageUrl: "https://onlinepngtools.com/images/png/illustrations/remove-png-background.png", // Import this image as well
-    imageUrlLink: "https://roombookingreact.vercel.app/",
-  },
+ 
 ] as const;
 
 
@@ -90,9 +91,9 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "Jquery",
-  "Php-symfony",
-  "React",
+
+
+ "React",
   "Matrial ui",
   "Git",
   "Git-hub",
