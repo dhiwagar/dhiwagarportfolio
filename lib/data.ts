@@ -55,19 +55,36 @@ export const projectsData = [
   {
     title: "Crud",
     description:
-      "A React Task Management App which performs all the crud operations like Add, Update, Read, Edit, and Delete tasks.",
+      "A React Task Management App which performs all the CRUD operations like Add, Update, Read, Edit, and Delete tasks.",
     tags: ["React", "Bootstrap", "Redux"],
     imageUrl: rmtdevImg,
     imageUrlLink: "https://react-redux-crud-8chi5bzvu-dhiwagar.vercel.app/",
   },
   {
-    title: "Material ui",
-    description: "Responsive design meterial",
-    tags: ["React", "Matrial ui"],
+    title: "Material UI",
+    description: "Responsive design using Material UI components.",
+    tags: ["React", "Material UI"],
     imageUrl: wordanalyticsImg,
     imageUrlLink: "https://matrialui-dhiwagar.vercel.app/",
   },
+  {
+    title: "Food Commerce",
+    description:
+      "A responsive food commerce web app showcasing food items and cart functionality.",
+    tags: ["React", "Tailwind", "Commerce"],
+    imageUrl: "https://onlinepngtools.com/images/png/illustrations/remove-png-background.png", // Make sure to import this image
+    imageUrlLink: "https://thefoodfarmacy.vercel.app/",
+  },
+  {
+    title: "Room Booking",
+    description:
+      "A full-featured room booking application where users can search, view, and reserve hotel rooms.",
+    tags: ["React", "Bootstrap", "Booking"],
+    imageUrl: "https://onlinepngtools.com/images/png/illustrations/remove-png-background.png", // Import this image as well
+    imageUrlLink: "https://roombookingreact.vercel.app/",
+  },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
